@@ -1,0 +1,496 @@
+/* ===================================================================
+                        comon-css-part-start
+====================================================================== */
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,h2,h3,h4,h5,h6,ul,li,ol,p{
+    padding: 0;
+    margin: 0;
+}
+/* ===================================================================
+                        comon-css-part-end
+====================================================================== */
+
+
+
+
+/* ===================================================================
+                        header-part-start
+====================================================================== */
+.header{
+   background: #ffffff;
+}
+
+.header .navbar-brand{
+    color: #44c0c2;
+    font-size: 43px;
+    font-weight: 400;
+}
+
+.header ul li a{
+    padding: 30px 0;
+    color: #484c55;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left:30px 0 !important;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    position: relative;
+}
+
+.header ul li a::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width:0;
+    background: #49cbcd;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+
+.header ul li a:hover::after{
+    width: 100%;
+}
+
+.header ul li a:hover{
+    background: #f8f9fb;
+    color: #49cbcd;
+}
+/* ===================================================================
+                        header-part-end
+====================================================================== */
+
+
+
+
+/* ===================================================================
+                        banner-part-start
+====================================================================== */
+.banner-img{
+    padding: 145px 0;
+}
+
+.banner-text h1{
+    color: #ffffff;
+    font-size: 63px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.banner-text p {
+	color: #ffffff;
+	font-size: 23px;
+	font-weight: 400;
+	padding: 0 109px;
+    padding-bottom: 55px;
+}
+
+.banner-text a{
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 25px 40px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+
+.banner-text a:hover{
+    background-color: #44c0c2;
+    border-color: #44c0c2;
+}
+/* ===================================================================
+                        banner-part-end
+====================================================================== */
+
+
+
+
+/* ===================================================================
+                        web-part-start
+====================================================================== */
+#web{
+    padding: 100px 0;
+}
+
+.web-text i{
+    font-size: 32px;
+    height: 105px;
+    width: 105px;
+    color: #44c0c2;
+    text-align: center;
+    line-height: 105px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid #44c0c2;
+    margin-bottom: 45px;
+}
+
+.web-text h3{
+    color: #4e525d;
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.web-text p{
+    color: #4e525d;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 15px;
+}
+
+.web-text a{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 12px;
+    background: #44c0c2;
+}
+/* ===================================================================
+                        web-part-end
+====================================================================== */
+
+
+
+
+/* ===================================================================
+                        portfolio-part-start
+====================================================================== */
+#port{
+    padding: 50px 0 100px;
+    background: #f1f1f1;
+}
+
+.port-text h3{
+    color: #4e525d;
+    font-size: 42px;
+    font-weight: 400;
+    padding-bottom: 55px;
+}
+
+.port-img {
+	width: 99%;
+	margin-bottom: 30px;
+}
+/* ===================================================================
+                        portfolio-part-end
+====================================================================== */
+
+
+
+
+/* ===================================================================
+                        team-part-start
+====================================================================== */
+#team{
+    padding: 95px 0 105px;
+}
+
+.team-text1{
+    height: 200px;
+    width: 200px;
+    line-height: 200px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #eeeef0;
+    font-size: 40px;
+    color: #f46d6d;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+
+.team-text1 i{
+    opacity: 0;
+}
+
+.team-text1:hover i{
+    opacity: 1;
+}
+
+.team-text2 h3{
+    color: #4e525d;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 65px;
+}
+
+.team-text2 h3 span{
+    display: block;
+    font-size: 14px;
+}
+
+.team-text2 p{
+    color: #4e525d;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 25px;
+}
+/* ===================================================================
+                        team-part-end
+====================================================================== */
+
+
+
+
+/* ===================================================================
+                        pro-part-start
+====================================================================== */
+#pro{
+    padding: 115px 0 100px;
+    background: #eeeef0;
+}
+
+.pro-text:hover .pro-1{
+    background: #44c0c2;
+}
+
+.pro-1{
+    background: #485460;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 400;
+    padding: 20px 0;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+
+.pro-2{
+    background: #f8f9fb;
+    color: #485460;
+    font-size: 20px;
+    font-weight: 400;
+    padding:20px ;
+}
+
+.pro-3 ul li{
+    background: #ffffff;
+    padding: 15px 0;
+    border-bottom: 1px solid #eeeef0;
+    color: #8c9299;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.pro-4{
+    background: #f8f9fb;
+    padding: 30px 0;
+}
+
+.pro-4 a{
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 15px 50px;
+    background: #788492;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+
+.pro-text:hover .pro-4 a{
+    background: #44c0c2;
+}
+/* ===================================================================
+                        pro-part-end
+====================================================================== */
+
+
+
+
+/* ===================================================================
+                        what-part-start
+====================================================================== */
+#what{
+    padding: 150px 0 110px;
+}
+
+.what-text h3{
+    color: #4e525d;
+    font-size: 42px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.what-text p{
+    color: #4e525d;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.what-text span{
+    display: block;
+    color: #9a8faf;
+    font-size: 21px;
+    padding-top: 30px;
+}
+/* ===================================================================
+                        what-part-end
+====================================================================== */
+
+
+
+
+/* ===================================================================
+                        foot-part-start
+====================================================================== */
+.foot-img{
+    padding: 105px 0;
+}
+
+
+.foot-head h3{
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 400;
+}
+
+
+.foot-text1{
+    margin-top: 115px;
+}
+
+.foot-text1 h3{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.foot-text1 p{
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	padding-right: 60px;
+    margin-bottom: 40px;
+}
+
+.foot-text3 ul li{
+    color: #bface2;
+    font-size: 14px;
+	font-weight: 400;
+}
+
+.foot-text2 ul{
+    display: flex;
+}
+
+.foot-text2 ul li a{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #3b5997;
+    color: #ffffff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+   margin-right: 15px;
+}
+
+.foot-text3 ul{
+    padding-top: 25px;
+}
+
+.foot-text3 ul li{
+    padding-bottom: 10px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+
+.foot-text3 ul li:hover{
+    background: #ffffff;
+    color: black;
+}
+
+.ttt{
+    margin-top: 115px;
+}
+
+.ttt form input {
+	height: 44px;
+	width: 270px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	padding-left: 20px;
+	margin-right: 6px;
+}
+
+.ttt form textarea {
+    height: 180px;
+    width: 550px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+/* ===================================================================
+                        foot-part-end
+====================================================================== */
+
+
